@@ -1,0 +1,6 @@
+this file tells about an overview of what this project is about.
+what is done here is that we are finding respiratory rate from the ppg signals in an efficient manner
+the ppg signal dataset is downloaded from the physionetATM
+then we pre-process the data, pass through digital resonator and use fourier transform to find the spectrum then we calculate maximum frequency from that spectrum (or the peak) and multiply it by 60
+to get the respiratory rate
+this project is done on reference from the paper," an automated algorithm for estimating respiration rate from ppg signals" by  K.Manojkumar,S.Boppu and M.Sabarimalai manikandan 
